@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    width: 1024px;
+    margin: auto;
+}
+.header{
+    height: 118px;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+
+}
+.social{
+    float: right;
+    margin-top: 30px;
+}
+
+/* social-media */
+.social img{
+    opacity:0.5;
+}
+.social img:hover{
+    opacity:1;
+}
+
+/* navbar */
+.nav{
+    border-top: 1px solid gray;
+}
+
+.nav li{
+    color: white;
+    width: 100px;
+    display:inline-block;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+.nav li:hover{
+    background-color: #3598ff;
+}
+.active{
+    background-color: #3598ff;
+
+}
+
+/* main */
+.content{
+    background-color: rgb(184, 181, 181);
+    padding: 10px;
+}
+.content h1{
+    color: #216da0;
+    border-bottom: 1px solid rgb(83, 81, 81);
+    margin: 25px 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content p{
+    text-align: justify;
+    margin: 15px 0px;
+    padding-right: 10px;
+}
+
+.slide img{
+    width: 100%;
+}
+.section{
+    width: 65%;
+    float: left;
+    padding-left: 10px;
+}
+
+.section ul{
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.section img{
+margin: 10px;
+padding: 4px;
+border: 1px solid white;
+}
+img:hover{
+    
+}
+
+.aside{
+    width: 30%;
+    float: right;
+}
+
+/* News title */
+.aside h4{
+    color: #9b4233;
+}
+
+/* date text */
+.aside h5{
+    color: #216da0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.footer{
+    margin-top:20px;
+    padding: 10px;
+    border-top: 1px solid;
+}
+.footer p{
+    text-align: center;
+}
+
+/* about page */
+.item{
+    text-align: center;
+}
+.item img{
+    border:3px solid rgb(148, 146, 146);
+    margin: 10px;
+    border-radius: 3px;
+}
+.item img:hover{
+    border:6px solid rgb(148, 146, 146);
+    border-radius: 6px;
+}
